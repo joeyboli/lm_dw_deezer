@@ -22,7 +22,7 @@ class CONF:
 		]
 	) # https://stackoverflow.com/questions/52063759/passing-default-list-argument-to-dataclasses
 
-	OUTPUT_FOLDER: str = 'Songs/'
+	OUTPUT_FOLDER: str = 'music/'
 
 	FILE_FORMATS: list[str] = field(default_factory = lambda: DEFAULT_FILE_FORMATS)
 	FILE_FORMAT: int = -1
