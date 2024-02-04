@@ -27,7 +27,7 @@ DEFAULT_FILE_FORMATS = [
 	'{artist} - {title}',
 	'{artist} {title}',
 	'{album} {n_track}:{n_disk}',
-	'{title} - {artists}'
+	'{artist} - {title}'
 ]
 
 
