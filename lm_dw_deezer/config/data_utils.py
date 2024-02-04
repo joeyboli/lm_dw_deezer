@@ -19,15 +19,15 @@ class BE_DW(StrEnum):
 
 
 DEFAULT_FILE_FORMATS = [
-	'{title} - {artist} ({ISRC})',
-	'{title} - {artist}',
-	'{title} - {artist} ({QUALITY})',
 	'{artist} - {title}',
-	'{album} - {artist} - {title} ({QUALITY})',
-	'{title} - {artists} ({QUALITY})',
-	'{album} {title}',
+	'{artist} - {title}',
+	'{artist} - {title}',
+	'{artist} - {title}',
+	'{artist} - {title}',
+	'{artist} - {title}',
+	'{artist} {title}',
 	'{album} {n_track}:{n_disk}',
-	'{title} - {artists} {ISRC} ({QUALITY})'
+	'{title} - {artists}'
 ]
 
 
