@@ -70,7 +70,7 @@ def get_fn(
 
 def create_dir_w_track(conf: CONF, track: Track) -> str:
 	dir_name = get_fn(track, conf.FOLDER_TEMPLATE, '')
-	dir_name = f'{conf.OUTPUT_FOLDER}/{dir_name}'
+	dir_name = f'{conf.OUTPUT_FOLDER}'
 	makedirs(dir_name, exist_ok = True)
 
 	return dir_name
@@ -78,7 +78,7 @@ def create_dir_w_track(conf: CONF, track: Track) -> str:
 
 def create_dir(conf: CONF, name: str) -> str:
 	dir_name = __excape_unwanted(name)
-	dir_name = f'{conf.OUTPUT_FOLDER}/{dir_name}'
+	dir_name = f'{conf.OUTPUT_FOLDER}'
 	makedirs(dir_name, exist_ok = True)
 
 	return dir_name
